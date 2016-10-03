@@ -1,0 +1,22 @@
+extends layout.pug
+
+block head
+  link(rel="stylesheet", href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css")
+
+block content
+  .container
+    .row
+      .col-md-8.col-md-offset-2
+        .panel.panel-default
+          .panel-heading
+            h1 Weather Analysis Testing
+          .panel-body
+            h3 Analyzing Weather from 01/2000 ~ 09/2016
+            table#welysis.table.table-hover.table-striped
+              thead
+                tr
+              tbody
+
+block scripts
+  script(src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js")
+  script(src="js/script.js")
