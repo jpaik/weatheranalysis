@@ -1,4 +1,4 @@
-# weatheranalysis
+# Weather Analysis (Welysis)
 
 Creating something that can analyze all of the historical weather data in the USA.
 
