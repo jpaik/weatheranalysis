@@ -16,6 +16,9 @@ app.set('views', __dirname + '/views');
 app.get("/", function(req, res){
     res.render("index");
 });
+app.get("/json", function(req,res){
+  res.render("json");
+})
 
 http.listen(port, 'localhost', function(){
   console.log("Listening on port " + port);
